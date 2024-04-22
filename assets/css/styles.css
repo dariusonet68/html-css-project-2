@@ -1,0 +1,45 @@
+body {
+  margin: 10px;
+  padding: 0;
+  box-sizing: border-box;
+}
+.projects-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.button {
+  display: inline;
+  font-size: medium;
+  background-color: #525293;
+  border-radius: 10px;
+  color: #f0f0f0;
+}
+/* card container */
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 10px;
+  background: #7986cb;
+  padding: 20px;
+  border-radius: 10px;
+  flex-grow: 3;
+}
+/* button back to index */
+#back-index {
+  display: flex;
+  gap: 15px;
+  padding: 20px 20px;
+  justify-content: center;
+  text-decoration: none;
+}
+/* Media Query */
+@media screen and (min-width: 400px) {
+  .card-container {
+    width: calc(25% - calc(50px + 15px));
+  }
+}
+/* card-description */
